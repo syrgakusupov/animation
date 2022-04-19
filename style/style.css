@@ -1,0 +1,27 @@
+.fon{
+    background-image: url("../img/race-car-309713_960_720.webp");
+    background-size: cover;
+    height: 100vh;
+}
+.smailik{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    padding-left: 18px;
+    padding-top: 373px;
+    gap: 628px;
+}
+.smailik img{
+    animation-name: smai;
+    animation-iteration-count: infinite;
+    animation-duration: 0.1s;
+    
+}
+@keyframes smai {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
